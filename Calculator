@@ -1,0 +1,44 @@
+# this program could be written much easier. While writing it, I wanted to get to know the basics of functions
+def list():
+    global choice
+    choice = int(input("What do you want to do now?\n1.Addition\n2.Subtraction.\n3.Multiplication\n0.Exit\n"))
+    
+def addition():
+    number1 = int(input("Enter the first number\n"))
+    number2 = int(input("Enter the second number \n"))
+    result = number1+number2
+    print("The result is:", result)
+
+def subtraction():
+    number1 = int(input("Enter the first number\n"))
+    number2 = int(input("Enter the second number  \n"))
+    result = number1-number2
+    print("The result is: ", result)
+    
+def multiplication():
+    number1 = int(input("Enter the first number \n"))
+    number2 = int(input("Enter the second number \n"))
+    result = number1*number2
+    print("The result is:", result)
+    
+    
+#main
+
+print("Calcuclator. Select what u want to do")
+
+list()
+while choice != 0:
+    if choice == 1:
+        addition()
+        list()
+    if choice == 2:
+       subtraction()
+       list()
+    if choice == 3:
+        multiplication()
+        list()
+    else:
+        choice = int(input("wrong command!\n"))   
+        list()
+           
+print('Bye!')
