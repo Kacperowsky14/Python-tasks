@@ -1,9 +1,9 @@
-# I will add english language soon
-# GRA SAMOTNY POSZUKIWIACZ
+
+# Lonely seeker game
 import time
 import random
 ekwipunek = []
-skarby = ("sztabka zlota", "mala sakiewka", "smieci", "dziwny kamien", "kalesony somsiada", "miecz", "sztylet")
+skarby = ("gold bar", "small purse", "rubbish", "strange stone", "underpants", "sword", "dagger")
 
 print("Jestes samotnym poszukiwaczem, zobaczymy co odnajdziesz!\n")
 time.sleep(2)
