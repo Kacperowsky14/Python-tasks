@@ -1,4 +1,4 @@
-# Python_tasks_and_smal_projects
+# Python_tasks
 
 
 In this repository I put both simple and short tasks, and slightly longer programs.
