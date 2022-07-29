@@ -62,7 +62,7 @@ if (start_game.upper()) == "START":
     print("It's a wolf!\n")
     wolf = int(input("1- escape, 2- state to fight the wolf.\n"))
     if wolf == 1:
-        print("Uciekasz tak szybko jak tylko mozesz")
+        print("You run away as fast as you can")
     if wolf == 2:
         if "underpants" in equipment:
             print("Underpants are a premium item. The wolf runs away. You win")
